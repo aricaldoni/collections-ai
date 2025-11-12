@@ -4,6 +4,8 @@ frontend/.next/
 frontend/.turbo/
 frontend/out/
 frontend/.env.local
+.next/
+node_modules/
 
 # Backend
 backend/venv/
@@ -15,4 +17,3 @@ backend/.pytest_cache/
 # General
 .DS_Store
 *.log
-node_modules/
