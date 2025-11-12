@@ -1,0 +1,13 @@
+[
+  "test_simple.py::test",
+  "tests/test_draft.py::test_draft_endpoint_missing_fields",
+  "tests/test_draft.py::test_draft_endpoint_structure",
+  "tests/test_draft.py::test_draft_with_mock_openai",
+  "tests/test_priority.py::test_health_check",
+  "tests/test_priority.py::test_priority_endpoint_empty_csv",
+  "tests/test_priority.py::test_priority_endpoint_empty_list",
+  "tests/test_priority.py::test_priority_endpoint_invalid_data",
+  "tests/test_priority.py::test_priority_endpoint_success",
+  "tests/test_priority.py::test_priority_sorting_logic",
+  "tests/test_priority.py::test_priority_zero_amount_last"
+]

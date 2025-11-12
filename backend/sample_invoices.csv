@@ -1,0 +1,19 @@
+customer,invoice_id,due_date,amount,days_past_due,last_promise,segment
+Global Tech Solutions,INV-2024-1203,2024-07-15,152000,113,2024-08-20,Enterprise
+Metro Supermarkets Inc,INV-2024-1089,2024-08-19,18500,78,Never,SMB
+StartupHub LLC,INV-2024-1405,2024-08-31,45000,67,Pending,Startup
+Downtown Pharmacy,INV-2024-1512,2024-09-09,8200,58,Never,SMB
+Southern Metal Industries,INV-2024-1620,2024-08-04,215000,94,2024-09-10,Enterprise
+Artisan Bakery Co,INV-2024-1701,2024-10-01,3400,36,Pending,SMB
+Rosewood Medical Center,INV-2024-1430,2024-08-27,98000,71,2024-09-30,Enterprise
+LogiTech Solutions,INV-2024-1555,2024-09-14,22000,53,2024-10-28,Startup
+Auto Parts Warehouse,INV-2024-1299,2024-09-24,12700,43,Never,SMB
+Premier Construction Group,INV-2024-1102,2024-07-10,187500,118,2024-08-15,Enterprise
+Coffee Plus LLC,INV-2024-1788,2024-10-10,5600,27,Pending,SMB
+PharmaCare Laboratories,INV-2024-1355,2024-08-11,125000,87,2024-09-30,Enterprise
+Textile Manufacturing Co,INV-2024-1643,2024-09-19,15300,48,2024-10-28,SMB
+EduTech Innovations,INV-2024-1499,2024-09-04,38000,63,Pending,Startup
+Grand Plaza Hotel,INV-2024-1210,2024-07-31,91000,98,2024-08-20,Enterprise
+Industrial Hardware Supply,INV-2024-1567,2024-09-27,9800,40,Never,SMB
+DataCloud Systems,INV-2024-1722,2024-10-05,29500,32,Pending,Startup
+National Food Distributors,INV-2024-1088,2024-07-20,168000,108,2024-08-20,Enterprise
