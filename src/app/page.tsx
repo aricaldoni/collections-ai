@@ -161,17 +161,21 @@ export default function Home() {
           </div>
 
           <div>
-            <label className="block">
-              <span className="sr-only">Choose file</span>
+            <label className="block cursor-pointer">
               <input
                 type="file"
                 accept=".csv"
                 onChange={handleFileUpload}
-                className="block w-full text-base text-gray-900 file:mr-4 file:py-3 file:px-6 file:rounded-md file:border-0 file:text-base file:font-semibold file:bg-gray-100 file:text-gray-700 hover:file:bg-gray-200 cursor-pointer"
+                className="hidden"
+                id="csv-upload"
               />
+              <div className="px-6 py-3 bg-gray-100 text-gray-700 font-semibold text-base rounded-md hover:bg-gray-200 transition-colors text-center border-2 border-dashed border-gray-300">
+                📁 Choose CSV File
+              </div>
             </label>
             {loading && <p className="mt-3 text-base text-blue-600 font-medium">Processing...</p>}
             {file && !loading && <p className="mt-3 text-base text-green-600 font-medium">✓ {file.name}</p>}
+            {!file && !loading && <p className="mt-3 text-base text-gray-500">No file selected</p>}
             
             <details className="mt-3">
               <summary className="text-sm text-gray-600 cursor-pointer hover:text-gray-900">
