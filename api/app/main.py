@@ -82,7 +82,8 @@ async def generate_draft(request: DraftRequest):
     print(f"DEBUG: Received request: {request}")
     
     api_key = os.getenv("OPENAI_API_KEY")
-    print(f"DEBUG: API Key exists: {api_key is not None}")
+    print(f"DEBUG: API Key length: {len(api_key) if api_key else 0}")  # ← AGREGAR
+    print(f"DEBUG: API Key suffix: ...{api_key[-6:] if api_key else 'NONE'}")  # ← AGREGAR
     
     if not api_key:
         raise HTTPException(500, "OPENAI_API_KEY not configured")
