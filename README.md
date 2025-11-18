@@ -9,7 +9,7 @@ Built in 7 days as a showcase project demonstrating enterprise customer success 
 
 ## 🎯 The Problem
 
-AR teams waste **4-6 hours/day** on:
+Teams waste **4-6 hours/day** on:
 - Manual spreadsheet sorting (which invoice to prioritize?)
 - Generic email templates (one-size-fits-all = damaged relationships)
 - Cognitive bias (oldest invoice ≠ highest priority)
