@@ -43,7 +43,7 @@ Priority Score = (Amount / 1000) × (Days Overdue / 30) ^ 1.2
 
 ## 🚀 Live Demo
 
-👉 **[Try it now](https://collections-ai-rpvq-agusricaldoni.vercel.app)** (no signup required)
+👉 **[Try it now](https://collections-ai-rpvg.vercel.app)** (no signup required)
 
 1. Click **"Try with Sample Data"** (15 realistic invoices)
 2. See priority ranking
